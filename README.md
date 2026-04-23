@@ -40,10 +40,10 @@ sudo systemctl status docker
 # n8n-Container starten
 ```
 # Erstellt einen dauerhaften Speicher für n8n-Daten
-docker volume create n8n_data
+sudo docker volume create n8n_data
 
 # Hiermit wird ein Docker Container gestartet, in welchem n8n läuft
-docker run -it --rm -d \
+sudo docker run -it --rm -d \
  --name n8n \ #Name des Containers
  -p 5678:5678 \ #Ports, auf denen die Website von n8n aufrufbar ist
  -v n8n_data:/home/node/.n8n \ #Der Speicher, in dem n8n speichert
