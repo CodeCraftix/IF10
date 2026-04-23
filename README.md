@@ -1,6 +1,10 @@
-# Test
+# Instalation der benötigten Software
+## Windows-Subsystem für Linux (WSL) mit Ubuntu
+```
 wsl --install ubuntu
+```
 
+## Instalation von Docker
 ```
 # Add Docker's official GPG key:
 sudo apt update
@@ -25,5 +29,6 @@ sudo apt update
 ```
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-
+```
 sudo systemctl status docker
+```
