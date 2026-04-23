@@ -79,7 +79,7 @@ In diesem Abschnitt wirst du einen Workflow erstellen, welcher dir eine Nachrich
     2. Navigiere zum Bereich **"Community nodes"**.
     3. Unter **Install a community node** als Namen **n8n-nodes-webuntis** eingeben, den Haken bei den Risiken setzen und auf **Install** drücken
 2. Füge den Trigger **Trigger manually** hinzu
-3. Füge an diesen den Node **Get Current Date** aus **Date & Time** (Nach node Date & Time suchen)
+3. Füge an diesen den Node **Get Current Date** aus **Date & Time** (Nach Node Date & Time suchen)
 4. An diesen Node kann nun ein **Get timetable for timeframe** von **WebUntis** angehangen werden
 5. Um nun aus den ganzen Daten nurnoch die einzelnen Stunden herauszunehmen, kann der Node **Split Out** genutzt werden
 6. Die einzelnen Unterrichtsstunden lassen sich nun mit dem Node **Filter** filtern sodass bspw. nur Unterrichtsstunden ausgegeben werden, welche Informatik sind. Hierzu stellt man den Filter bspw. so ein, dass **subject** gleich **IF10** (Fachkürzel muss der Liste entnommen werden) ist.
