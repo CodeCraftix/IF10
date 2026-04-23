@@ -29,6 +29,21 @@ sudo apt update
 ```
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+
 ```
 sudo systemctl status docker
+```
+
+# n8n-Container starten
+```
+# Erstellt einen dauerhaften Speicher für n8n-Daten
+docker volume create n8n_data
+
+# Hiermit wird ein Docker Container gestartet, in welchem n8n läuft
+docker run -it --rm -d \
+ --name n8n \ #Name des Containers
+ -p 5678:5678 \ #Ports, auf denen die Website von n8n aufrufbar ist
+ -v n8n_data:/home/node/.n8n \ #Der Speicher, in dem n8n speichert
+ docker.n8n.io/n8nio/n8n \ #Docker-Image
+ start --tunnel
 ```
