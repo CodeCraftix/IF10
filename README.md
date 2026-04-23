@@ -57,6 +57,6 @@ sudo docker run -it --rm -d \
 - **Personalisierung:** Die Angaben beim "Customizing" sind optional – wähle einfach beliebige Optionen.
 - **Lizenz:** Klicke bei der entsprechenden Aufforderung auf **"Send me a free license key"**.
 - **Aktivierung:**
- 1. Klicke unten links auf das **Zahnrad-Symbol** (Einstellungen).
- 2. Navigiere zum Bereich **"Usage and Plan"**.
- 3. Gib deinen erhaltenen Key unter **"Enter activation key"** ein.
+    1. Klicke unten links auf das **Zahnrad-Symbol** (Einstellungen).
+    2. Navigiere zum Bereich **"Usage and Plan"**.
+    3. Gib deinen erhaltenen Key unter **"Enter activation key"** ein.
