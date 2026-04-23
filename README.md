@@ -1,6 +1,9 @@
 # Instalation der benötigten Software
 ## Windows-Subsystem für Linux (WSL) mit Ubuntu
 ```
+wsl.exe --install --no-distribution
+```
+```
 wsl --install ubuntu
 ```
 
